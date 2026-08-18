@@ -6,7 +6,6 @@ Banka is a simple banking system APIs that allows users to create accounts,
 perform transactions (credit, debit), and view transaction history. 
 The system includes authentication, authorization, and different user roles (client, staff, admin).
 
-============================================================
 
 ## **🚀 Features**
 
@@ -36,7 +35,6 @@ Admin can create staff and admin user accounts.
 
 User can reset the password
 
-=========================================================
 
 ## **🛠️ Technologies Used**
 
