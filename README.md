@@ -1,6 +1,6 @@
-Banka - A Banking System API
+# Banka - A Banking System API
 
-📌 Project Overview
+**📌 Project Overview**
 
 Banka is a simple banking system APIs that allows users to create accounts,
 perform transactions (credit, debit), and view transaction history. 
@@ -8,7 +8,7 @@ The system includes authentication, authorization, and different user roles (cli
 
 ============================================================
 
-🚀 Features
+## **🚀 Features**
 
 User (client) can sign up.
 
@@ -38,7 +38,7 @@ User can reset the password
 
 =========================================================
 
-🛠️ Technologies Used
+## **🛠️ Technologies Used**
 
 Backend: Node.js with Express.js
 
@@ -50,45 +50,8 @@ Testing: Jest, Supertest, MongoMemoryServer
 
 Development Tools: Git, Postman, dotenv
 
-=======================================================
 
-📂 Project Structure
-Banka/
-|-- coverage
-|-- node_modules
-│-- src/
-│   │-- controllers/
-|   |   |-- accountController.js
-|   |   |-- authController.js
-|   |   |-- transactionController.js
-│   │-- middleware/
-|   |   |-- authMiddleware.js
-│   │-- models/
-|   |   |-- Account.js
-|   |   |-- Transaction.js
-|   |   |-- User.js
-│   │-- routes/
-|   |   |-- accountRoutes.js
-|   |   |-- authRoutes.js
-|   |   |-- transactionRoutes.js
-│   │-- utils/
-|   |   |-- generateToken.js
-│   |-- app.js
-|   |-- server.js
-│-- tests/
-│   │-- auth.test.js
-│   │-- account.test.js
-│   │-- transaction.test.js
-│   │-- authMiddleware.test.js
-│   │-- setup.js
-│-- .env
-|-- .gitignore
-│-- package-lock.json
-│-- package.json
-└-- README.md
-
-================================================
-🛠️ Setup and Installation
+## **🛠️ Setup and Installation**
 
 Prerequisites
 
@@ -102,9 +65,8 @@ Git
 
 VS Code
 
-===============================================
 
-Installation Steps
+## **Installation Steps**
 
 1. Clone the repository:
 
@@ -131,9 +93,8 @@ npm start
 
 npm test
 
-================================================
 
-🔑 Authentication & Authorization
+## **🔑 Authentication & Authorization**
 
 Users must authenticate using JWT tokens.
 
@@ -141,11 +102,10 @@ Clients can only manage their own accounts.
 
 Staff/Admins have additional permissions (e.g., updating account status).
 
-========================================================================
 
-📖 API Endpoints
+## **📖 API Endpoints**
 
-🧑‍💻 Authentication
+**🧑‍💻 Authentication**
 
 Method              Endpoint                    Description
 
@@ -154,7 +114,7 @@ POST            /api/v1/auth/signup           User Registration
 POST            /api/v1/auth/signin           User Login
 
 
-🏦 Account Management
+**🏦 Account Management**
 
 Method              Endpoint                       Description
 
@@ -167,7 +127,7 @@ PATCH            /api/v1/accounts/:accountNo      Update account status
 DELETE           /api/v1/accounts/:accountNo       Delete an account
 
 
-💸 Transactions
+**💸 Transactions**
 
 Method                     Endpoint                            Description
 
@@ -177,9 +137,8 @@ POST            /api/v1/transactions/:accountNo/debit           Debit an account
 
 GET             /api/v1/transactions/:transactionId             Get transaction details
 
-========================================================================================
 
-✅ Testing
+## **✅ Testing**
 
 The project includes unit and integration tests using Jest and Supertest.
 
