@@ -108,7 +108,7 @@ Installation Steps
 
 1. Clone the repository:
 
-git clone https://github.com/markerson7/banka.git
+git clone https://github.com/markerson7/Banka-Banking_System-APIs
 cd banka
 
 2. Install dependencies:
