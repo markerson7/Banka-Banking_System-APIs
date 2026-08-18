@@ -1,5 +1,5 @@
 // tests/account.extra.test.js
-// Developed by: Markerson D Flomo and FATEHALRAHMAN HUSSEIN AHMED ALHASSAN
+// Developed by: Markerson D Flomo and FATEHALRAHMAN HUSSEIN AHMED 
 // This file adds tests for uncovered branches and functions in accountController.js
 
 const request = require('supertest');
