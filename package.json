@@ -1,5 +1,5 @@
 {
-  "name": "banka",
+  "name": "banka-banking-system-apis",
   "version": "1.0.0",
   "main": "src/server.js",
   "scripts": {
